@@ -12,7 +12,7 @@ class PostManEchoTest {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("Request to Postman Echo")
                 // Выполняемые действия
                 .when()
                 .post("/post")
